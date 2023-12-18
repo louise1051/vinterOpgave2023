@@ -9,12 +9,12 @@ public class privateCustomer {
 	private String privateMail;
 	
 	public privateCustomer (String privateName,String privateAddress, int privatePostalCode, String privateCity, int privatePhoneNr, String privateMail) {
-		this.setPrivateName(privateName);
-		this.setPrivateAddress(privateAddress);
-		this.setPrivatePostalCode(privatePostalCode);
-		this.setPrivateCity(privateCity);
-		this.setPrivatePhoneNr(privatePhoneNr);
-		this.setPrivateMail(privateMail);
+		this.privateName = privateName;
+		this.privateAddress = privateAddress;
+		this.privatePostalCode = privatePostalCode;
+		this.privateCity = privateCity;
+		this.privatePhoneNr = privatePhoneNr;
+		this.privateMail = privateMail;
 	
 	}
 
